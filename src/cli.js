@@ -1,8 +1,9 @@
 import minimist from "minimist";
-import { version } from "./version";
-import { help } from "./help";
-import { configure } from "./configure";
-import { search } from "./search";
+import { version } from "./cli/version";
+import { help } from "./cli/help";
+import { configure } from "./cli/configure";
+import { search } from "./cli/search";
+import { detail } from "./cli/detail";
 export async function cli(argsArray) {
   const args = minimist(argsArray.slice(2));
   let cmd = args._[0] || "help";
@@ -29,6 +30,9 @@ export async function cli(argsArray) {
 
     case "search":
       search(args);
+      break;
+    case "detail":
+      detail(args);
       break;
 
     default:

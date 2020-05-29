@@ -4,7 +4,8 @@ const menus = {
   main: `
 ${chalk.greenBright("duapi [command] <options>")}
   ${chalk.blueBright("search")} ................ duapi search -t=yezzy
-  ${chalk.blueBright("version")} ............ show package version
+  ${chalk.blueBright("detail")} ................ 商品详情（i使用search之后的supId）  duapi detail -i=20   
+  ${chalk.blueBright("version")} ................ 
   ${chalk.blueBright("help")} ............... show help menu for a command
 `,
  

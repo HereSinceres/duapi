@@ -1,15 +1,21 @@
 {
   "name": "duapi",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A CLI for 得物(毒) api 查询",
   "main": "index.js",
   "bin": {
     "duapi": "./index.js"
   },
   "scripts": {
-    "pb": "npm publish . --access=public --registry=https://registry.npmjs.org/"
+    "pb": "npm publish . --access=public"
   },
-  "keywords": [],
+  "keywords": [
+    "毒 api sign",
+    "得物 api sign",
+    "得物",
+    "毒",
+    "sneaker"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {

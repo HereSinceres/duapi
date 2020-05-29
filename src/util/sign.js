@@ -1,7 +1,6 @@
 var md5 = require("md5");
 
 function sign(t) {
-  console.log(t);
   var s = Object.keys(t)
       .sort()
       .reduce(function (key, m) {
@@ -36,7 +35,6 @@ function sign(t) {
               );
       }, ""),
     s = s + "19bc545a393a25177083d4a748807cc0";
-  console.log(s);
   return s;
 }
 
