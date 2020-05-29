@@ -1,6 +1,6 @@
 {
   "name": "duapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI for 得物(毒) api 查询",
   "main": "index.js",
   "bin": {
@@ -12,6 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HereSinceres/duapi/issues"
+  },
+  "homepage": "https://github.com/HereSinceres/duapi#readme",
   "dependencies": {
     "chalk": "^4.0.0",
     "child_process": "^1.0.2",
